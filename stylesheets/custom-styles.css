@@ -1,0 +1,86 @@
+/* Table Headers */
+th {
+    cursor: pointer; /* Enables clickable headers */
+    position: relative; /* Positions the sort indicator relative to the header */
+    padding-right: 25px; /* Provides space for the sort indicator */
+    overflow: hidden; /* Ensures text does not overflow */
+    text-overflow: ellipsis; /* Truncates text with an ellipsis */
+    font-size: 12px; /* Standardizes font size */
+}
+
+/* Table Data Cells */
+td {
+    font-size: 12px; /* Standardizes font size */
+}
+
+/* Aligns text in non-first child cells to the center */
+td:not(:first-child) {
+    text-align: left !important;
+}
+
+/* Aligns code within .doc-contents td to the left */
+.doc-contents td code {
+    text-align: left !important;
+}
+
+/* Ensures tables take full width */
+.md-typeset__table, table {
+    width: 100%;
+    display: table !important; /* Ensures tables are displayed as tables */
+}
+
+/* Sets minimum width for unclassed table headers */
+.md-typeset table:not([class]) th {
+    min-width: 3rem !important;
+}
+
+/* Aligns text in non-first child headers to the center */
+th:not(:first-child) {
+    text-align: left !important;
+}
+
+/* Sort Indicator */
+th::after {
+    content: '↕'; /* Double arrow for unsorted columns */
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d;
+    font-size: smaller;
+    pointer-events: none; /* Prevents clicks on the indicator */
+}
+
+/* Sort Indicator for Ascending Order */
+th.ascending::after {
+    content: '▲';
+}
+
+/* Sort Indicator for Descending Order */
+th.descending::after {
+    content: '▼';
+}
+
+.doc-symbol-parameter::after {
+  content: "parameter" !important;
+}
+
+.doc-symbol-attribute::after {
+  content: "attribute" !important;
+}
+
+.doc-symbol-function::after {
+  content: "function" !important;
+}
+
+.doc-symbol-method::after {
+  content: "method" !important;
+}
+
+.doc-symbol-class::after {
+  content: "class" !important;
+}
+
+.doc-symbol-module::after {
+  content: "module" !important;
+}
