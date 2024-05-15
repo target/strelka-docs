@@ -17,7 +17,7 @@ jobs:
 
       # Fetch the gh-pages branch
       - name: Fetch gh-pages branch
-        run: git fetch origin gh-pages
+        run: git fetch origin main
 
       # Set up Python 3.12
       - name: Set up Python 3.12
