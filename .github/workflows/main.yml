@@ -2,8 +2,9 @@ name: Build and Deploy Strelka Docs
 
 # Trigger the workflow on each day to update docs
 on:
-  schedule:
-    - cron: '0 2 * * *'  # 2 AM UTC daily
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["gh-pages"]
 
 jobs:
   build-and-deploy:
