@@ -1,0 +1,63 @@
+name: Build and Deploy Strelka Docs
+
+# Trigger the workflow on each day to update docs
+on:
+  # Runs on pushes targeting the default branches
+  push:
+    branches: ["gh-pages", "main"]
+  # Also run on a daily schedule
+  schedule:
+    - cron: '0 2 * * *'  # Also run @ 2 AM UTC daily
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          ref: main  # Ensure you checkout the main branch first
+
+      # Fetch the gh-pages branch
+      - name: Fetch gh-pages branch
+        run: git fetch origin gh-pages
+
+      # Create the docs/Scanners directory if it doesn't exist
+      - name: Create docs/Scanners directory
+        run: mkdir -p docs/Scanners
+
+      # Set up Python 3.12
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.12
+
+      # Upgrade pip
+      - name: Upgrade pip
+        run: python -m pip install --upgrade pip
+
+      # Install Poetry
+      - name: Install Poetry
+        run: pip install poetry
+
+      # Install dependencies using Poetry
+      - name: Install dependencies
+        run: poetry install
+
+      # Clone the strelka repository
+      - name: Clone strelka repository
+        run: git clone https://github.com/target/strelka.git
+
+      # Build the docs using the provided script
+      - name: Build docs
+        run: poetry run python build_docs.py
+
+      # Build the site using mkdocs
+      - name: Build site with mkdocs
+        run: poetry run mkdocs build
+
+      # Deploy the site to GitHub Pages
+      - name: Deploy to GitHub Pages
+        run: poetry run mkdocs gh-deploy
