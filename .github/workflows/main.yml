@@ -5,6 +5,9 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["gh-pages"]
+  # Also run on a daily schedule
+  schedule:
+    - cron: '0 2 * * *'  # This means 2 AM UTC daily
 
 jobs:
   build-and-deploy:
@@ -14,10 +17,12 @@ jobs:
       # Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          ref: main  # Ensure you checkout the main branch first
 
       # Fetch the gh-pages branch
       - name: Fetch gh-pages branch
-        run: git fetch origin main
+        run: git fetch origin gh-pages
 
       # Set up Python 3.12
       - name: Set up Python 3.12
@@ -52,4 +57,3 @@ jobs:
       # Deploy the site to GitHub Pages
       - name: Deploy to GitHub Pages
         run: poetry run mkdocs gh-deploy
-
