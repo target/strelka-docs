@@ -1,0 +1,166 @@
+markdown_extensions:
+- admonition
+- attr_list
+- md_in_html
+- pymdownx.details
+- pymdownx.highlight:
+    anchor_linenums: true
+    line_spans: __span
+    pygments_lang_class: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format
+- pymdownx.emoji:
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+- toc:
+    permalink: true
+nav:
+- Strelka:
+  - Overview: index.md
+  - Use Cases: Strelka/StrelkaUseCases.md
+  - FAQ: Strelka/StrelkaFaq.md
+- Getting Started:
+  - Quickstart: GettingStarted/GettingStartedQuickstart.md
+  - Installation: GettingStarted/GettingStartedInstallation.md
+- Scanners:
+  - Overview: Scanners/ScannerOverview.md
+  - Deployed:
+    - ScanBatch: Scanners/ScanBatch.md
+    - ScanBmpEof: Scanners/ScanBmpEof.md
+    - ScanBzip2: Scanners/ScanBzip2.md
+    - ScanDmg: Scanners/ScanDmg.md
+    - ScanDocx: Scanners/ScanDocx.md
+    - ScanDonut: Scanners/ScanDonut.md
+    - ScanEmail: Scanners/ScanEmail.md
+    - ScanEncryptedDoc: Scanners/ScanEncryptedDoc.md
+    - ScanEncryptedZip: Scanners/ScanEncryptedZip.md
+    - ScanEntropy: Scanners/ScanEntropy.md
+    - ScanExiftool: Scanners/ScanExiftool.md
+    - ScanFooter: Scanners/ScanFooter.md
+    - ScanGif: Scanners/ScanGif.md
+    - ScanGzip: Scanners/ScanGzip.md
+    - ScanHash: Scanners/ScanHash.md
+    - ScanHeader: Scanners/ScanHeader.md
+    - ScanHtml: Scanners/ScanHtml.md
+    - ScanIqy: Scanners/ScanIqy.md
+    - ScanIso: Scanners/ScanIso.md
+    - ScanJarManifest: Scanners/ScanJarManifest.md
+    - ScanJavascript: Scanners/ScanJavascript.md
+    - ScanJnlp: Scanners/ScanJnlp.md
+    - ScanJpeg: Scanners/ScanJpeg.md
+    - ScanJson: Scanners/ScanJson.md
+    - ScanLibarchive: Scanners/ScanLibarchive.md
+    - ScanLnk: Scanners/ScanLnk.md
+    - ScanLsb: Scanners/ScanLsb.md
+    - ScanLzma: Scanners/ScanLzma.md
+    - ScanMacho: Scanners/ScanMacho.md
+    - ScanManifest: Scanners/ScanManifest.md
+    - ScanMsi: Scanners/ScanMsi.md
+    - ScanOcr: Scanners/ScanOcr.md
+    - ScanOle: Scanners/ScanOle.md
+    - ScanOnenote: Scanners/ScanOnenote.md
+    - ScanPcap: Scanners/ScanPcap.md
+    - ScanPdf: Scanners/ScanPdf.md
+    - ScanPe: Scanners/ScanPe.md
+    - ScanPgp: Scanners/ScanPgp.md
+    - ScanPhp: Scanners/ScanPhp.md
+    - ScanPkcs7: Scanners/ScanPkcs7.md
+    - ScanPlist: Scanners/ScanPlist.md
+    - ScanPngEof: Scanners/ScanPngEof.md
+    - ScanQr: Scanners/ScanQr.md
+    - ScanRar: Scanners/ScanRar.md
+    - ScanRpm: Scanners/ScanRpm.md
+    - ScanRtf: Scanners/ScanRtf.md
+    - ScanSevenZip: Scanners/ScanSevenZip.md
+    - ScanSwf: Scanners/ScanSwf.md
+    - ScanTar: Scanners/ScanTar.md
+    - ScanTlsh: Scanners/ScanTlsh.md
+    - ScanTnef: Scanners/ScanTnef.md
+    - ScanTranscode: Scanners/ScanTranscode.md
+    - ScanUdf: Scanners/ScanUdf.md
+    - ScanUpx: Scanners/ScanUpx.md
+    - ScanUrl: Scanners/ScanUrl.md
+    - ScanVb: Scanners/ScanVb.md
+    - ScanVba: Scanners/ScanVba.md
+    - ScanVhd: Scanners/ScanVhd.md
+    - ScanVsto: Scanners/ScanVsto.md
+    - ScanX509: Scanners/ScanX509.md
+    - ScanXl4ma: Scanners/ScanXl4ma.md
+    - ScanXml: Scanners/ScanXml.md
+    - ScanYara: Scanners/ScanYara.md
+    - ScanZip: Scanners/ScanZip.md
+    - ScanZlib: Scanners/ScanZlib.md
+  - Not Deployed:
+    - ScanAntiword: Scanners/ScanAntiword.md
+    - ScanBase64: Scanners/ScanBase64.md
+    - ScanBase64Pe: Scanners/ScanBase64Pe.md
+    - ScanCcn: Scanners/ScanCcn.md
+    - ScanCuckoo: Scanners/ScanCuckoo.md
+    - ScanDelay: Scanners/ScanDelay.md
+    - ScanElf: Scanners/ScanElf.md
+    - ScanException: Scanners/ScanException.md
+    - ScanFalconSandbox: Scanners/ScanFalconSandbox.md
+    - ScanIni: Scanners/ScanIni.md
+    - ScanNf: Scanners/ScanNf.md
+    - ScanSave: Scanners/ScanSave.md
+    - ScanStrings: Scanners/ScanStrings.md
+- Strelka UI:
+  - Overview: StrelkaUi/StrelkaUiOverview.md
+- Community:
+  - Overview: Community/CommunityOverview.md
+  - Opensource: Community/CommunityOpensource.md
+plugins:
+- search
+- open-in-new-tab
+- mkdocstrings:
+    custom_templates: docs/_templates
+    handlers:
+      python:
+        rendering:
+          show_source: true
+        options:
+          heading_level: 3
+          show_symbol_type_heading: true
+          show_symbol_type_toc: true
+          members_order: source
+          line_length: 60
+          show_bases: false
+site_name: Strelka Documentation
+site_url: https://target.github.io/strelka-docs
+use_directory_urls: false
+repo_url: https://github.com/target/strelka
+repo_name: target/strelka
+theme:
+  name: material
+  icon:
+    logo: material/library
+  features:
+  - navigation.top
+  - navigation.footer
+  - search.suggest
+  - search.highlight
+  - search.share
+  - content.tooltips
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - content.code.copy
+  palette:
+  - primary: black
+    scheme: default
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to dark mode
+  - primary: black
+    scheme: slate
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to light mode
+extra_javascript:
+- javascripts/custom-sort.js
+extra_css:
+- stylesheets/custom-styles.css

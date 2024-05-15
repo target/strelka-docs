@@ -1,0 +1,13 @@
+features_config:
+  IOC Support: "self.add_iocs"
+  Emit Files: "self.emit_file"
+  Extended Docs: "!!! info"
+  Malware Scanner: "Scanner Type: Malware"
+  Image Thumbnails: "base64_thumbnail"
+
+paths:
+  backend_config_path: "./strelka/configs/python/backend/backend.yaml"
+  scanners_dir: "./strelka/src/python/strelka/scanners"
+  tests_dir: "./strelka/src/python/strelka/tests"
+  docs_dir: "./docs"
+  static_dir: "./static"
