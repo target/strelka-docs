@@ -17,14 +17,20 @@ Welcome to the official documentation for Strelka, an advanced tool for automate
 
 ## Overview
 
-Strelka is designed for detailed malware analysis, providing robust scanning capabilities across various file types. 
-The project's documentation is automatically generated and updated through GitHub Actions the latest changes in the `strelka` repository.
+Strelka is designed for large scale file analysis, providing robust scanning capabilities across various file types. 
+The project's documentation is automatically generated and updated through GitHub Actions the latest changes in Target's [Strelka](https://github.com/target/strelka) repository.
 
-## How Docs Work
+## Documentation Pipeline
 
-Documentation for Strelka is automatically generated to ensure up-to-date information. Key sections include:
+`strelka-docs` builds and publishes new documents to the `gh-pages` branch. 
 
-- **Strelka Scanners**: Discusses the core analysis components.
+This branch is hosted on [GitHub](https://target.github.io/strelka-docs/).
+
+## Documentation Update Schedule
+
+Documentation for Strelka is automatically generated:
+ - Daily @ 2 AM UTC
+ - On Push to Branchs: [`gh-pages`, `main`]
 
 ## Running Docs Locally
 
@@ -76,27 +82,6 @@ To set up and view the documentation locally, follow these steps:
 7. **Access the Documentation**
 
    Open your web browser and go to `http://127.0.0.1:8000/target/strelka/` to view the local documentation.
-
-## Automated Pipeline
-
-`strelka-docs` builds and publishes new documents to the `gh-pages` branch. This branch is hosted on [GitHub](https://target.github.io/strelka-docs/).
-
-## Strelka Documentation Update Process
-
-1. **Pull Request** (`strelka` repo)
-   - A user submits a PR which is then reviewed for integration.
-
-2. **Merge** (`strelka` repo)
-   - The PR is approved and merged into the main branch.
-
-3. **Build Trigger** (`strelka` repo)
-   - The merge triggers the Vela pipeline, which builds Strelka and commits to the `strelka-docs` repo.
-
-4. **Doc Build** (`strelka-docs` repo)
-   - The `strelka-docs` pipeline generates documentation using the latest `strelka` repos.
-
-5. **Publish** (`strelka-docs` repo)
-   - Newly generated documentation is published and made available to users.
 
 ## Documentation Format
 
