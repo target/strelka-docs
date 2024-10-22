@@ -2,437 +2,437 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://target.github.io/strelka-docs/index.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Community/CommunityOpensource.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Community/CommunityOverview.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/GettingStarted/GettingStartedInstallation.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/GettingStarted/GettingStartedQuickstart.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanAntiword.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanBase64.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanBase64Pe.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanBatch.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanBmpEof.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanBzip2.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanCcn.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanCuckoo.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanDelay.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanDmg.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanDocx.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanDonut.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanElf.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanEmail.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanEncryptedDoc.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanEncryptedZip.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanEntropy.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanException.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanExiftool.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanFalconSandbox.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanFooter.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanGif.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanGzip.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanHash.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanHeader.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanHtml.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanIni.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanIqy.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanIso.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanJarManifest.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanJavascript.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanJnlp.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanJpeg.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanJson.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanLibarchive.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanLnk.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanLsb.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanLzma.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanMacho.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanManifest.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanMsi.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanNf.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanOcr.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanOle.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanOnenote.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanPcap.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanPdf.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanPe.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanPgp.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanPhp.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanPkcs7.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanPlist.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanPngEof.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanQr.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanRar.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanRpm.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanRtf.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanSave.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanSevenZip.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanStrings.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanSwf.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanTar.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanTlsh.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanTnef.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanTranscode.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanUdf.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanUpx.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanUrl.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanVb.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanVba.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanVhd.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanVsto.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanX509.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanXl4ma.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanXml.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanYara.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanZip.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScanZlib.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Scanners/ScannerOverview.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Strelka/StrelkaFaq.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/Strelka/StrelkaUseCases.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://target.github.io/strelka-docs/StrelkaUi/StrelkaUiOverview.html</loc>
-         <lastmod>2024-10-21</lastmod>
+         <lastmod>2024-10-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
