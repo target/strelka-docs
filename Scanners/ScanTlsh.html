@@ -1548,6 +1548,27 @@
   
   
     <li class="md-nav__item">
+      <a href="ScanPyinstaller.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ScanPyinstaller
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="ScanQr.html" class="md-nav__link">
         
   
@@ -2882,7 +2903,7 @@ score: TLSH diff score.
 </span><span id="__span-0-74"><a id="__codelineno-0-74" name="__codelineno-0-74"></a>            <span class="k">for</span> <span class="n">tlsh_hash</span> <span class="ow">in</span> <span class="n">tlsh_hashes</span><span class="p">:</span>
 </span><span id="__span-0-75"><a id="__codelineno-0-75" name="__codelineno-0-75"></a>                <span class="k">try</span><span class="p">:</span>
 </span><span id="__span-0-76"><a id="__codelineno-0-76" name="__codelineno-0-76"></a>                    <span class="c1"># Calculate the difference score between the file hash and the rule hash</span>
-</span><span id="__span-0-77"><a id="__codelineno-0-77" name="__codelineno-0-77"></a>                    <span class="n">score</span> <span class="o">=</span> <span class="n">tlsh</span><span class="o">.</span><span class="n">diff</span><span class="p">(</span><span class="n">tlsh_file</span><span class="p">,</span> <span class="n">tlsh_hash</span><span class="p">)</span>
+</span><span id="__span-0-77"><a id="__codelineno-0-77" name="__codelineno-0-77"></a>                    <span class="n">score</span> <span class="o">=</span> <span class="n">tlsh</span><span class="o">.</span><span class="n">diffxlen</span><span class="p">(</span><span class="n">tlsh_file</span><span class="p">,</span> <span class="n">tlsh_hash</span><span class="p">)</span>
 </span><span id="__span-0-78"><a id="__codelineno-0-78" name="__codelineno-0-78"></a>                <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
 </span><span id="__span-0-79"><a id="__codelineno-0-79" name="__codelineno-0-79"></a>                    <span class="bp">self</span><span class="o">.</span><span class="n">flags</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;bad_tlsh: </span><span class="si">{</span><span class="n">tlsh_hash</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </span><span id="__span-0-80"><a id="__codelineno-0-80" name="__codelineno-0-80"></a>                    <span class="k">continue</span>
